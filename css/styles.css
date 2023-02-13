@@ -39,12 +39,12 @@ body{
 }
 
 .QUESTION{
-    align-items: flex-start;
+    align-items: center;
     background-color: var();
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 30vh;
+    height: 20vh;
     padding: 3rem;
     width: 80vw;
 }
@@ -109,6 +109,8 @@ body{
 .ANSWER_IDOL{
     background-color: var(--fondo-alertas);
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
     padding: 3rem;
     width: 80vw;
 }
