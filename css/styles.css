@@ -87,6 +87,7 @@ body{
     border: solid var(--color-textos) 0.2rem;
     border-radius: 0.5rem;
     color: var(--color-textos);
+    cursor: pointer;
     display: flex;
     justify-content: space-around;
     height: 6rem;
@@ -125,6 +126,21 @@ body{
     border: solid var(--color-textos) 0.2rem;
     border-radius: 0.5rem;
     color: var(--color-textos);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    height: 6rem;
+    padding: 1.5rem;
+    width: 20%;
+}
+
+.ANSWERIDOL_CLEAR:hover{
+    align-items: center;
+    background-color: var(--color-textos);
+    border: solid var(--fondo-accionables) 0.2rem;
+    border-radius: 0.5rem;
+    color: var(--fondo-accionables);
+    cursor: pointer;
     display: flex;
     justify-content: space-around;
     height: 6rem;
@@ -134,6 +150,7 @@ body{
 
 .ANSWERIDOLCLEAR_BUTONICON{
     align-items: center;
+    color: var(--fondo-accionables);
     display: flex;
     justify-content: center;
 }

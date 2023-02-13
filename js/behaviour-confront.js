@@ -1,0 +1,1 @@
+//document.getElementById("answer_idol").style.display="none";
