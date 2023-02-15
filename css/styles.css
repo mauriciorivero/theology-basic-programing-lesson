@@ -150,6 +150,10 @@ body{
     width: 20%;
 }
 
+.ANSWERIDOL_CLEAR:hover .ANSWERIDOLCLEAR_BUTONICON{
+    filter: invert(1);
+}
+
 .ANSWERIDOLCLEAR_BUTONICON{
     align-items: center;
     color: var(--fondo-accionables);
