@@ -9,6 +9,15 @@ document.getElementById("question_button").onclick = function(){
 
 
 function confrontarObjetoAdoracion(objeto){
+    /**
+     * Las formas de idolatría son:
+
+Fetichismo, o la adoración de árboles, ríos, colinas, piedras, etc.
+Adoración a la naturaleza, la adoración del sol, la luna y las estrellas, como los supuestos poderes de la naturaleza.
+Adoración de héroes, la adoración de ancestros fallecidos, o de héroes.
+
+Jonás 2:8 – «Aquellos que se aferran a ídolos sin valor se apartan del amor de Dios por ellos.
+     */
     if(objeto===""){
         document.getElementById("answer_idol").style.display = "flex";
         document.getElementById("answeridol_output1").innerHTML="No has definido que es lo que mas amas";
